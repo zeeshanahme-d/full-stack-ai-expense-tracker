@@ -5,9 +5,9 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Spinner } from '@/components/ui/spinner'
-import { CURRENCIES } from '@/constant/Constant'
 import { Eye, EyeOff } from 'lucide-react'
 import { Field, FieldLabel } from '@/components/ui/field'
+import { CURRENCIES } from '@/lib/constant'
 
 const SignupPage = () => {
     const [form, setForm] = useState({
